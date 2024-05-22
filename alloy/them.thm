@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<alloy>
+
+<view hidePrivate="no">
+
+<defaultnode/>
+
+<defaultedge/>
+
+<node>
+   <type name="Int"/>
+   <type name="item"/>
+   <type name="Stack"/>
+   <type name="String"/>
+   <type name="univ"/>
+   <type name="seq/Int"/>
+   <set name="$v_top" type="item"/>
+</node>
+
+<edge attribute="yes">
+   <relation name="deleted"> <type name="Stack"/> <type name="item"/> </relation>
+</edge>
+
+<edge layout="no" attribute="no">
+   <relation name="elems"> <type name="Stack"/> <type name="item"/> </relation>
+</edge>
+
+</view>
+
+</alloy>
